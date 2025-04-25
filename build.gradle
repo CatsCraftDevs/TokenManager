@@ -75,11 +75,8 @@ repositories {
 dependencies {
     implementation 'org.projectlombok:lombok:1.18.22'
     implementation 'org.spigotmc:spigot-api:1.14.4-R0.1-SNAPSHOT'
-    implementation (name: 'MVdWPlaceholderAPI-3.1.1') {
-        transitive = false
-    }
     implementation name: 'Vault-1.6.7'
-    implementation 'me.clip:placeholderapi:2.10.9'
+    implementation 'me.clip:placeholderapi:2.11.6'
 
     // shaded dependencies
     implementation 'redis.clients:jedis:3.5.1'
