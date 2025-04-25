@@ -49,6 +49,10 @@ repositories {
     }
 
     maven {
+        url 'https://repo.extendedclip.com/content/repositories/placeholderapi/'
+    }
+
+    maven {
         name 'clip-repo'
         url 'https://repo.extendedclip.com/content/repositories/placeholderapi/'
     }
